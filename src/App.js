@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 // Contents
 import Home from './contents/Home'
 import About from './contents/About'
-import Education from './contents/Education'
+
 import Skills from './contents/Skills'
 import Contact from './contents/Contact'
 
