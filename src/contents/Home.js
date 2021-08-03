@@ -12,8 +12,8 @@ class Home extends Component {
               alt="profile"
               className="profilepic"
             /> */}
-            
-            {<img src={profilepic} />}
+
+            {<img alt="a" src={profilepic} />}
             <br></br>
             <ReactTypingEffect
               text={["My name is Warinthon Jaitrong", "I'm a Progtammer"]}

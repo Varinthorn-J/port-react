@@ -11,7 +11,7 @@ class About extends Component {
           alt="profile"
           className="profilepic"
         /> */}
-        {<img src={profilepic} />}
+        {<img alt="a" src={profilepic} />}
         <h3>Hi, I am Warinthon Jaitrong</h3>
         <p>Lorem ipsum perspiciatis distinc placeat?</p>
       </div>
