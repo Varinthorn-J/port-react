@@ -5,10 +5,9 @@ import Navbar from './components/Navbar'
 // Contents
 import Home from './contents/Home'
 import About from './contents/About'
-
 import Skills from './contents/Skills'
 import Contact from './contents/Contact'
-
+import Education from './contents/Education'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 function App() {
@@ -28,6 +27,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/education">
+          <Education />
         </Route>
       </div>
     </Router>

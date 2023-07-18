@@ -12,7 +12,7 @@ class About extends Component {
           className="profilepic"
         /> */}
         {<img alt="a" src={profilepic} />}
-        <h3>Hi, I am Warinthon Jaitrong</h3>
+        <h3>I am a quality assurance engineer.</h3>
         <p>Lorem ipsum perspiciatis distinc placeat?</p>
       </div>
     );

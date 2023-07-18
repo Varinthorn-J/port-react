@@ -6,12 +6,12 @@ class Skills extends Component {
         super(props);
 
         this.state = {
-            'myskills': ['HTML', 'CSS', 'JS', 'ReactJS', 'PHP', 'SQL']
+            'myskills': ['Postman', 'Git', 'Python', 'Robot Framework', 'Jenkins', 'SQL', 'Docker']
         }
     }
 
     render() {
-        return(
+        return (
             <div className="condiv skills">
                 <h1 className="subtopic">My Skills</h1>
                 <ul>
