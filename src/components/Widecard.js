@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Widecard extends Component {
     render() {
-        return(
+        return (
             <div className="widecard">
                 <div className="wide-con">
                     <h3>{this.props.title}</h3>
